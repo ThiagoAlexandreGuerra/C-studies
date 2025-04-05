@@ -1,0 +1,7 @@
+g++ -c ./Include/Students.cpp -I ./Headers -o ./Bin/Students.exe
+g++ -c ./Include/Students.cpp -I ./Headers -o ./Bin/Students.exe
+g++ -c ./Apps/main.cpp -I ./Headers -o ./Bin/main.o 
+
+g++ -c ./Include/Students.cpp -I ./Headers -o ./Object/Students.o
+g++ ./Apps/main.cpp ./Object/*.o -I ./Headers -o ./Bin/main.exe
+./Bin/main.exe
