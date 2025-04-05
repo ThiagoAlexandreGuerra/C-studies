@@ -1,0 +1,9 @@
+ cd ./LibrariesInCAndCpp/TAD_GFP
+
+
+
+ANOTATIONS:
+
+numberNumber replaces to NumberForResult;
+Number replaces to FirstNumber;
+NumberForMult replaces to SecondNumber;
